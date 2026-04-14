@@ -7,27 +7,32 @@
 
 **CineMax** is a high-performance, premium movie discovery application designed for the ultimate entertainment experience. Blazing fast, lightweight, and packed with features that help you find your next favorite movie or TV show.
 
+## 📱 App Showcase
+
+| Home | Details | Search & AI | My Library | Settings |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="./screenshots/home.png" width="180" /> | <img src="./screenshots/detail.png" width="180" /> | <img src="./screenshots/search.png" width="180" /> | <img src="./screenshots/library.png" width="180" /> | <img src="./screenshots/settings.png" width="180" /> |
+
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- **🚀 Highly Optimized**: We reduced the APK size from 110MB to just **38MB** without compromising on quality.
-- **🌗 Beautiful UI/UX**: Professional Dark Mode design with smooth glassmorphic elements and cinematic animations.
-- **🎬 Deep Discovery**: Explore trending movies, top-rated TV shows, and cast details with a single tap.
-- **🔔 Smart Notifications**: Stay updated with custom push notifications and a personalized inbox.
-- **⚡ Performance First**: Built with architecture-specific optimization for the smoothest experience on Android.
+### 🎬 Cinematic Experience
+- **Premium Design**: Dark mode by default with glassmorphism and smooth animations.
+- **Hero Slider**: Trending featured content at your fingertips.
+- **Parallax Details**: Stunning movie pages with trailer integration and cast details.
+
+### 🤖 AI-Powered Search
+- **Mood Discovery**: Tell the AI how you feel, and it finds the perfect movie.
+- **Voice Search**: Hands-free movie searching.
+- **Advanced Filters**: Browse by genre, country, or streaming provider.
+
+### 📦 Portfolio & Customization
+- **Developer Section**: Dedicated space in Settings with links to Sunil Kumar's Portfolio and GitHub.
+- **Haptic Feedback**: Tactile response on button clicks and interactions.
+- **Smart Notifications**: Built-in inbox for updates and release alerts.
+- **Custom Lists**: Create and manage your own movie collections.
 - **👨‍💻 Premium Splash**: Featuring a custom-coded cinematic "CineMax" reveal on startup.
-
----
-
-## 📸 Screenshots
-
-> [!TIP]
-> Add your own screenshots here to make the repo look visually stunning!
-
-|                          Home Screen                           |                            Movie Detail                            |                            Search & AI                             |
-| :------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: |
-| ![Home](https://via.placeholder.com/300x600?text=CineMax+Home) | ![Detail](https://via.placeholder.com/300x600?text=CineMax+Detail) | ![Search](https://via.placeholder.com/300x600?text=CineMax+Search) |
 
 ---
 
