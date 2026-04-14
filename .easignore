@@ -1,0 +1,13 @@
+# .easignore
+# This file is used by EAS Build instead of .gitignore if it exists.
+# We want to make sure google-services.json IS uploaded to EAS but NOT to GitHub.
+
+node_modules/
+.expo/
+dist/
+web-build/
+/ios
+/android
+/vendor
+.idea/
+.vscode/

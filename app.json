@@ -1,44 +1,76 @@
 {
   "expo": {
-    "name": "cinemax",
+    "name": "CineMax",
     "slug": "cinemax",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "cinemax",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "icon": "./assets/expo.icon"
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cinemax.app"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.cinemax.app",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router",
+      "expo-font",
       [
-        "expo-splash-screen",
+        "expo-notifications",
         {
-          "backgroundColor": "#208AEF",
+          "icon": "./assets/icon.png",
+          "color": "#E50914"
+        }
+      ],
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
           "android": {
-            "image": "./assets/images/splash-icon.png",
-            "imageWidth": 76
+            "dependencyResolutionManagement": "PREFER_PROJECT",
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "extraProguardRules": "-keep class expo.modules.** { *; }\n-keep class com.facebook.react.** { *; }\n-dontwarn expo.modules.**\n-dontwarn com.facebook.react.**",
+            "packagingOptions": {
+              "pickFirst": [
+                "**/libjsc.so",
+                "**/libc++_shared.so"
+              ]
+            },
+            "enableMinifyInReleaseBuilds": true
           }
         }
-      ]
+      ],
+      "expo-image",
+      "expo-sharing",
+      "expo-web-browser"
     ],
+    "scheme": "cinemax",
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1d71489e-f8c9-49a7-93c8-689cb952554a"
+      }
     }
   }
 }

@@ -1,56 +1,97 @@
-# Welcome to your Expo app 👋
+# 🎬 CineMax — The Ultimate Cinema Companion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Framework](https://img.shields.io/badge/Framework-Expo-4630EB.svg?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Size](https://img.shields.io/badge/APK_Size-38_MB-success?style=for-the-badge)](https://github.com/Sunilkr1/cinemax/releases)
 
-## Get started
+**CineMax** is a high-performance, premium movie discovery application designed for the ultimate entertainment experience. Blazing fast, lightweight, and packed with features that help you find your next favorite movie or TV show.
 
-1. Install dependencies
+---
+
+## ✨ Key Features
+
+- **🚀 Highly Optimized**: We reduced the APK size from 110MB to just **38MB** without compromising on quality.
+- **🌗 Beautiful UI/UX**: Professional Dark Mode design with smooth glassmorphic elements and cinematic animations.
+- **🎬 Deep Discovery**: Explore trending movies, top-rated TV shows, and cast details with a single tap.
+- **🔔 Smart Notifications**: Stay updated with custom push notifications and a personalized inbox.
+- **⚡ Performance First**: Built with architecture-specific optimization for the smoothest experience on Android.
+- **👨‍💻 Premium Splash**: Featuring a custom-coded cinematic "CineMax" reveal on startup.
+
+---
+
+## 📸 Screenshots
+
+> [!TIP]
+> Add your own screenshots here to make the repo look visually stunning!
+
+|                          Home Screen                           |                            Movie Detail                            |                            Search & AI                             |
+| :------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: |
+| ![Home](https://via.placeholder.com/300x600?text=CineMax+Home) | ![Detail](https://via.placeholder.com/300x600?text=CineMax+Detail) | ![Search](https://via.placeholder.com/300x600?text=CineMax+Search) |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Core**: React Native & Expo (Managed Workflow)
+- **Navigation**: Expo Router (File-based routing)
+- **Styling**: NativeWind / Tailwind CSS
+- **Data**: TMDB API + React Query for smooth caching
+- **Storage**: MMKV / AsyncStorage for extreme speed
+- **Animations**: Reanimated & Built-in Animated API
+
+---
+
+## 📥 Installation & Build
+
+If you want to run this project locally:
+
+1. **Clone the Repo**:
+
+   ```bash
+   git clone https://github.com/Sunilkr1/cinemax.git
+   ```
+
+2. **Install Dependencies**:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Start the Project**:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Build your own APK**:
+   ```bash
+   eas build -p android --profile preview
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Download APK
 
-## Get a fresh project
+You can download the latest production-ready APK from our **[Releases](https://github.com/Sunilkr1/cinemax/releases)** page.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 👨‍💻 Developed By
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Sunil Kumar**  
+Full Stack Developer & Cinema Enthusiast.
 
-### Other setup steps
+- [🌐 My Portfolio](https://portfoliosunilkumar.netlify.app/)
+- [🐙 GitHub Profile](https://github.com/Sunilkr1)
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+---
 
-## Learn more
+## ⚖️ License & Credits
 
-To learn more about developing your project with Expo, look at the following resources:
+- Data provided by [TMDB](https://www.themoviedb.org/).
+- Project for personal and portfolio use.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+_Made with ❤️ by Sunil Kumar._
