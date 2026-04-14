@@ -9,25 +9,28 @@
 
 ## 📱 App Showcase
 
-| Home | Details | Search & AI | My Library | Settings |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="./screenshots/home.png" width="180" /> | <img src="./screenshots/detail.png" width="180" /> | <img src="./screenshots/search.png" width="180" /> | <img src="./screenshots/library.png" width="180" /> | <img src="./screenshots/settings.png" width="180" /> |
+|                         Home                          |                         Details                         |                       Search & AI                       |                        My Library                        |                         Settings                          |
+| :---------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------: |
+| <img src="./screenshots/home.png.jpeg" width="180" /> | <img src="./screenshots/detail.png.jpeg" width="180" /> | <img src="./screenshots/search.png.jpeg" width="180" /> | <img src="./screenshots/library.png.jpeg" width="180" /> | <img src="./screenshots/settings.png.jpeg" width="180" /> |
 
 ---
 
 ## ✨ Features
 
 ### 🎬 Cinematic Experience
+
 - **Premium Design**: Dark mode by default with glassmorphism and smooth animations.
 - **Hero Slider**: Trending featured content at your fingertips.
 - **Parallax Details**: Stunning movie pages with trailer integration and cast details.
 
 ### 🤖 AI-Powered Search
+
 - **Mood Discovery**: Tell the AI how you feel, and it finds the perfect movie.
 - **Voice Search**: Hands-free movie searching.
 - **Advanced Filters**: Browse by genre, country, or streaming provider.
 
 ### 📦 Portfolio & Customization
+
 - **Developer Section**: Dedicated space in Settings with links to Sunil Kumar's Portfolio and GitHub.
 - **Haptic Feedback**: Tactile response on button clicks and interactions.
 - **Smart Notifications**: Built-in inbox for updates and release alerts.
